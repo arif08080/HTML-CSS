@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 300px;
+  border: 2px solid black;
+  flex-wrap: nowrap; /* Default: items ek hi line mein dab jayenge */
+}
+
+.item {
+  width: 100px; /* Har item 100px ka hai, total 500px chahiye par container sirf 300px ka hai */
+  background: lightblue;
+  margin: 5px;
+}
+
+.container1 {
+  display: flex;
+  width: 300px;
+  border: 2px solid black;
+  flex-wrap: wrap; /* Ab items niche wali line mein aa jayenge */
+}
+
+.item {
+  width: 100px; /* Har item 100px ka hai, total 500px chahiye par container sirf 300px ka hai */
+  background: lightblue;
+  margin: 5px;
+}
