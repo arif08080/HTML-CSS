@@ -1,0 +1,16 @@
+.navbar {
+  display: flex; /* Parent ko Flex banaya */
+  justify-content:space-between ; /* Dono bacho ko kinaro par bhej diya */
+  align-items: center; /* Dono ko vertically beech mein rakha */
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+.logo {
+  font-weight: bold; /* Child 1 ki apni styling */
+}
+
+.links {
+  color: blue; /* Child 2 ki apni styling */
+
+}

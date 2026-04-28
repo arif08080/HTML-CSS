@@ -1,0 +1,14 @@
+.parent-box { /* PARENT */
+  display: flex;
+  background-color:rgb(255, 47, 224);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px ;
+ 
+}
+
+.child { /* CHILD */
+  color: white;
+  margin-right: 20px;
+    
+}

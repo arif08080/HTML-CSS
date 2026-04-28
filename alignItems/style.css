@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+  display: flex;
+  align-items: flex-start; /* Items upar rahenge */
+}
+
+
+.container1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+  display: flex;
+  align-items: flex-end; /* Items neeche rahenge */
+}
+
+.container2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 200px;
+  display: flex;
+  align-items: center; /* Items vertically beech mein rahenge */
+}
